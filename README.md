@@ -53,8 +53,9 @@ OpenWeather - per la gestione dei dati meteorologici
 
 <h2>Screenshots</h2>
 
-![image info](screenshots/Splashscreen.jpg){width=200px height=240px}
-![image info](screenshots/Group.jpg){width=200px height=240px}
-![image info](screenshots/Budget.gif){width=200px height=240px}
-![image info](screenshots/Time.gif){width=200px height=240px}
-![image info](screenshots/MapAndPlaces.gif){width=200px height=240px}
+<img src="screenshots/Splashscreen.jpg" width="200px" height="240px" />
+<img src="screenshots/Group.jpg" width="200px" height="240px" />
+<img src="screenshots/Budget.gif" width="200px" height="240px" />
+<img src="screenshots/Time.gif" width="200px" height="240px" />
+<img src="screenshots/Splashscreen.jpg" width="200px" height="240px" />
+<img src="screenshots/MapAndPlaces.gif" width="200px" height="240px" />
