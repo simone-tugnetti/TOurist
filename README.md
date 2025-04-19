@@ -32,6 +32,6 @@
 
   [Razvan Apostol](https://github.com/r-apostol-9618)
   <br>
-  [Federica Vacca](https://github.com/bakicchan-fe)
+  [Federica Vacca](https://github.com/Fedevvi)
 
 </div>
