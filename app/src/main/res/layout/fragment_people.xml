@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PeopleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtTitoloPersone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="@string/seleziona_persone"
+            android:textSize="@dimen/title"
+            android:textColor="@color/nero" />
+
+        <ImageView
+            android:id="@+id/imgViewSingolo"
+            android:src="@drawable/singolo_xxxhdpi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/peopleSingolo" />
+
+        <ImageView
+            android:id="@+id/imgViewCoppia"
+            android:src="@drawable/coppia_xxxhdpi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/peopleCoppia" />
+
+
+        <ImageView
+            android:id="@+id/imgViewGruppo"
+            android:src="@drawable/gruppo_xxxhdpi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/peopleGruppo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgViewPage1"
+                android:layout_width="65dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/circles"
+                android:contentDescription="@string/timeGroupDescription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

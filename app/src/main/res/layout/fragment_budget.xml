@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/budgetFrame"
+    tools:context=".BudgetFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtTitoloBudget"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="@string/seleziona_budget"
+            android:textColor="@color/nero"
+            android:textSize="@dimen/title" />
+
+        <ImageView
+            android:id="@+id/imgViewPortafoglio"
+            android:layout_width="match_parent"
+            android:layout_weight="10"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/wallet"
+            android:contentDescription="@string/budgetIntroDescription" />
+
+        <com.jem.rubberpicker.RubberRangePicker
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_weight="7"
+            android:layout_height="0dp"
+            app:minValue="0"
+            app:maxValue="200"
+            app:elasticBehavior="cubic"
+            app:dampingRatio="0.4"
+            app:stiffness="400"
+            app:stretchRange="36dp"
+            app:defaultThumbRadius="16dp"
+            app:normalTrackWidth="4dp"
+            app:highlightTrackWidth="8dp"
+            app:normalTrackColor="@color/track_color"
+            app:highlightTrackColor="@color/colorPrimary"
+            app:highlightDefaultThumbOnTouchColor="@color/colorAccent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtSeekbarStart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/nero" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="32sp"
+                android:text="@string/budgetSeparator"
+                android:textColor="@color/nero"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"/>
+
+            <TextView
+                android:id="@+id/txtSeekbarEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/nero" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnFree"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/btn_text"
+                android:text="@string/btn_free"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnAvanti"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/btn_avanti"
+                android:textSize="@dimen/btn_text" />
+
+            <ImageView
+                android:id="@+id/imgViewPage2"
+                android:layout_width="70dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/circles2"
+                android:contentDescription="@string/timeGroupDescription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

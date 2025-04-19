@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TOurist</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_app">TOurist</string>
+
+    <!-- bottoni -->
+    <string name="btn_avanti">AVANTI</string>
+    <string name="btn_free">GRATUITO</string>
+    <string name="btn_cinema">CINEMA</string>
+    <string name="btn_ristoranti">RISTORANTI</string>
+    <string name="btn_musei">MUSEI</string>
+
+    <!-- fragment_budget -->
+    <string name="seleziona_budget">Seleziona il tuo budget</string>
+    <string name="budgetIntroDescription">Immagine iniziale - Portafoglio</string>
+    <string name="budgetSeparator">-</string>
+
+    <!-- fragment_people -->
+    <string name="seleziona_persone">Seleziona il numero di persone</string>
+    <string name="peopleSingolo">Immagine singola persona</string>
+    <string name="peopleCoppia">Immagine di coppia</string>
+    <string name="peopleGruppo">Immagine di gruppo</string>
+
+    <!-- fragment_time -->
+    <string name="seleziona_tempo">Seleziona quanto tempo hai a disposizione</string>
+    <string name="time">00:00</string>
+    <string name="allDay">Tutto il giorno</string>
+    <string name="dalle">Dalle</string>
+    <string name="alle">Alle</string>
+    <string name="timeIntroDescription">Immagine iniziale - Clessidra</string>
+    <string name="timeCalendarDescription">Immagine del calendario</string>
+    <string name="timeGroupDescription">Immagine di cambio schermata</string>
+
+    <!-- Toolbar -->
+    <string name="large_text">10.0</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_side_menu">SideMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="card_image_description">Immagine Descrittiva Marker</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>

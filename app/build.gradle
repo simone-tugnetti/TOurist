@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "com.its.tourist"
+    defaultConfig {
+        applicationId "com.its.tourist"
+        minSdk 23
+        targetSdk 34
+        compileSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    implementation 'com.github.Chrisvin:RubberPicker:v1.1'/* Picker Library */
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1' /* Material Design Library */
+    implementation 'com.applandeo:material-calendar-view:1.9.2' /* Material Design Calendar */
+    implementation 'com.google.android.libraries.places:places:4.1.0'
+    implementation 'com.google.maps.android:android-maps-utils:3.9.0'
+    // weather
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.google.android.gms:play-services-maps:19.0.0'
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
+
+    implementation 'com.karumi:dexter:6.2.3'
+
+}

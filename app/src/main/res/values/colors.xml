@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB8C00</color>
+    <color name="colorPrimaryDark">#c43e00</color>
+    <color name="colorAccent">#1c88e2</color>
+    <color name="background">#F2F2F2</color>
+    <!-- Toolbar -->
+
+    <color name="toolbar_gradient_1">#ff00d9ff</color>
+    <color name="toolbar_gradient_1_evening">#341c61</color>
+    <color name="toolbar_gradient_1_midnight">#ff416eb2</color>
+    <color name="toolbar_gradient_1_morning">#fff0ecb3</color>
+    <color name="toolbar_gradient_1_noon">#ff00d9ff</color>
+    <color name="toolbar_gradient_1_noon_evening">#ffa976ed</color>
+    <color name="toolbar_gradient_2">#ff00b0ff</color>
+    <color name="toolbar_gradient_2_evening">#1e1918</color>
+    <color name="toolbar_gradient_2_midnight">#ff2a2569</color>
+    <color name="toolbar_gradient_2_morning">#ff00b3ff</color>
+    <color name="toolbar_gradient_2_noon">#ff00b0ff</color>
+    <color name="toolbar_gradient_2_noon_evening">#704343</color>
+
+    <color name="nero">#000</color>
+    <color name="grey">#2C2C2C</color>
+    <color name="track_color">#AAAAAA</color>
+    <color name="transparent">#0000FFFF</color>
+    <color name="white">#FFF</color>
+    <color name="base_primary">#1c88e2</color>
+
+</resources>

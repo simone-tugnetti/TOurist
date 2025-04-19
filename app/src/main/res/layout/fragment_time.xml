@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/timeFrame"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TimeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtTitoloTime"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/seleziona_tempo"
+            android:textSize="@dimen/title"
+            android:textColor="@color/nero" />
+
+        <ImageView
+            android:id="@+id/imgViewTempo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            app:srcCompat="@drawable/hourglass"
+            android:contentDescription="@string/timeIntroDescription" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtData"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="@dimen/base_text"
+                tools:ignore="NestedWeights" />
+
+            <ImageView
+                android:id="@+id/imgViewCalendar"
+                android:src="@drawable/icon_calendar"
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:contentDescription="@string/timeCalendarDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtGiorno"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/allDay"
+                android:gravity="center"
+                android:textSize="@dimen/base_text"
+                tools:ignore="NestedWeights" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" >
+
+                <Switch
+                    android:id="@+id/switchGiorno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtDalle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/dalle"
+                android:gravity="center"
+                android:textSize="@dimen/base_text"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/timeBegin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/base_text"
+                android:text="@string/time" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtAlle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/alle"
+                android:gravity="center"
+                android:textSize="@dimen/base_text"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/timeEnd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/base_text"
+                android:text="@string/time" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAvanti3"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/roboto"
+                android:background="@color/colorPrimary"
+                android:text="@string/btn_avanti"
+                android:textSize="@dimen/btn_text" />
+
+            <ImageView
+                android:id="@+id/imgViewGruppo3"
+                android:layout_width="65dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/circles3"
+                android:contentDescription="@string/timeGroupDescription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
