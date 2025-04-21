@@ -6,6 +6,8 @@
 
 </div>
 
+&nbsp;
+
 <h2 align="center">Feautures</h2>
 
 - Selection of single, couple or group travel
@@ -13,6 +15,8 @@
 - Select the number of days or hours you intend to visit the city of Turin
 - Viewing on Google Maps of places of interest, based on previous choices, divided by museums, cinemas and restaurants
 - Display of today's temperature and time via header graphics
+
+&nbsp;
 
 <div align="center">
 
@@ -25,6 +29,8 @@
  <img src="screenshots/MapAndPlaces.gif" width="25%" />
 
 </div>
+
+&nbsp;
 
 <div align="center">
 
